@@ -31,17 +31,6 @@ public class Application2 {
             int scount = 0;
             int bcount = 0;
 
-            for(int i = 0; i < num.length(); i++){
-                for(int j = 0; j < num.length(); j++){
-                    if (str.charAt(i) == num.charAt(j)) {
-                        scount++;
-                    }
-                    else if (str.charAt(i) == num.charAt(j)) {
-                        bcount++;
-                    }
-                }
-            }
-
             if (str.charAt(0) == num.charAt(0)) {
                     scount++;
             }
